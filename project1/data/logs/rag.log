@@ -1,0 +1,300 @@
+2026-04-30 11:41:08.165 | INFO     | api.main:startup:84 - Starting Enterprise-RAG API...
+2026-04-30 11:41:10.103 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 11:41:10.105 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 11:41:10.106 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 11:41:10.107 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 11:41:10.109 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 11:41:10.109 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 11:41:10.110 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 11:41:10.110 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 11:42:31.139 | WARNING  | api.main:startup:93 - Auto-ingestion skipped: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 7880f113-f3a8-4c27-9a8b-cd979e54f213)')
+2026-04-30 11:42:31.139 | INFO     | api.main:startup:94 - Enterprise-RAG API ready
+2026-04-30 11:56:43.267 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 11:56:43.985 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 11:56:43.987 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 11:56:43.988 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 11:56:43.990 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 11:56:43.991 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 11:56:43.992 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 11:56:43.992 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 11:56:43.992 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 11:57:47.896 | WARNING  | api.main:startup:105 - Auto-ingestion skipped: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 72b0ae00-52d4-45d8-bf5d-ba31685b5a0b)')
+2026-04-30 11:57:47.896 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:06:26.202 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 12:06:26.920 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:06:26.922 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:06:26.924 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:06:26.926 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:06:26.928 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:06:26.930 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:06:26.930 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:06:26.930 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:06:40.537 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 12:06:41.293 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:06:41.295 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:06:41.297 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:06:41.299 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:06:41.301 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:06:41.301 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:06:41.301 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:06:41.302 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:06:58.991 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 12:06:59.691 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:06:59.693 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:06:59.695 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:06:59.697 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:06:59.698 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:06:59.699 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:06:59.699 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:06:59.699 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:07:45.991 | WARNING  | api.main:startup:105 - Auto-ingestion skipped: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 389a1d7a-8126-4dd0-9c9f-5d08580526e3)')
+2026-04-30 12:07:45.991 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:08:04.984 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 12:08:06.966 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:08:06.968 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:08:06.970 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:08:06.972 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:08:06.973 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:08:06.974 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:08:06.974 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:08:06.974 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:08:12.833 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 12:08:14.957 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:08:14.959 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:08:14.961 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:08:14.963 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:08:14.965 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:08:14.967 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:08:14.967 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:08:14.967 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:09:11.692 | WARNING  | api.main:startup:105 - Auto-ingestion skipped: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 0ea05fd2-43bb-476c-afa1-463b926088bc)')
+2026-04-30 12:09:11.693 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:10:03.898 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 12:10:06.100 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:10:06.101 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:10:06.103 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:10:06.105 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:10:06.107 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:10:06.107 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:10:06.108 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:10:06.108 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:17:58.228 | INFO     | api.main:startup:96 - Starting Enterprise-RAG API...
+2026-04-30 12:18:00.196 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:18:00.199 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:18:00.200 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:18:00.202 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:18:00.203 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:18:00.204 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:18:00.204 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:18:00.204 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:19:03.922 | WARNING  | api.main:startup:105 - Auto-ingestion skipped: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 8d4f6634-9d61-48e7-9b36-e13678a2551b)')
+2026-04-30 12:19:03.922 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:25:13.336 | INFO     | src.splitter:split:46 - Split 1 docs into 27 chunks
+2026-04-30 12:25:13.337 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 27 chunks...
+2026-04-30 12:25:13.337 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:26:07.433 | ERROR    | api.main:upload_document:219 - Ingestion failed: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: cdfb9df2-a48d-41ff-9cbe-d67b9994584e)')
+2026-04-30 12:29:10.243 | INFO     | api.main:startup:85 - Starting Enterprise-RAG API...
+2026-04-30 12:29:10.953 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:29:10.954 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:29:10.956 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:29:10.958 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:29:10.960 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:29:10.961 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:29:10.961 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:29:10.961 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:29:17.661 | INFO     | src.loader:load_directory:64 - Loaded: 3bf0ee603858432ca4dfb75a7774c1bb_产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:29:17.662 | INFO     | src.splitter:split:46 - Split 1 docs into 27 chunks
+2026-04-30 12:29:17.662 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 27 chunks...
+2026-04-30 12:29:17.662 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:30:11.864 | INFO     | src.splitter:split:46 - Split 1 docs into 27 chunks
+2026-04-30 12:30:11.864 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 27 chunks...
+2026-04-30 12:30:11.865 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:31:01.214 | INFO     | api.main:startup:85 - Starting Enterprise-RAG API...
+2026-04-30 12:31:01.918 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:31:01.920 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:31:01.922 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:31:01.924 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:31:01.925 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:31:01.926 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:31:01.926 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:31:01.927 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:31:23.726 | INFO     | api.main:startup:85 - Starting Enterprise-RAG API...
+2026-04-30 12:31:24.454 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:31:24.456 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:31:24.458 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:31:24.459 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:31:24.461 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:31:24.462 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:31:24.462 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:31:24.462 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:32:49.206 | INFO     | api.main:startup:85 - Starting Enterprise-RAG API...
+2026-04-30 12:32:49.941 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:32:49.943 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:32:49.944 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:32:49.946 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:32:49.948 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:32:49.948 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:32:49.948 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:32:49.949 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:37:52.981 | INFO     | api.main:startup:85 - Enterprise-RAG API starting...
+2026-04-30 12:37:53.653 | INFO     | api.main:startup:89 - Pipeline initialized
+2026-04-30 12:37:53.653 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:37:53.655 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:37:53.657 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:37:53.658 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:37:53.660 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:37:53.661 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:37:53.662 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:37:53.662 | INFO     | src.embedder:embed_documents:56 - Generating dense embeddings for 130 chunks...
+2026-04-30 12:37:53.662 | INFO     | src.embedder:model:34 - Loading embedding model: BAAI/bge-m3
+2026-04-30 12:38:56.457 | WARNING  | api.main:_ingest_demo:103 - Demo ingestion skipped: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 59352c33-3729-4b5d-b505-09d4b6402689)')
+2026-04-30 12:49:02.758 | INFO     | api.main:startup:85 - Enterprise-RAG API starting...
+2026-04-30 12:49:03.437 | INFO     | api.main:startup:89 - Pipeline initialized
+2026-04-30 12:49:03.437 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:49:03.439 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:49:03.442 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:49:03.443 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:49:03.445 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:49:03.446 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:49:03.447 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:49:03.447 | INFO     | src.embedder:embed_documents:59 - Embedding 130 chunks via DashScope (text-embedding-v1)...
+2026-04-30 12:49:03.447 | INFO     | src.embedder:embed_documents:66 -   batch 1/6 (25 texts)
+2026-04-30 12:49:03.447 | INFO     | src.embedder:client:39 - Embedding API: https://dashscope.aliyuncs.com/compatible-mode/v1  model=text-embedding-v1
+2026-04-30 12:49:05.913 | INFO     | src.embedder:embed_documents:66 -   batch 2/6 (25 texts)
+2026-04-30 12:49:07.023 | INFO     | src.embedder:embed_documents:66 -   batch 3/6 (25 texts)
+2026-04-30 12:49:07.923 | INFO     | src.embedder:embed_documents:66 -   batch 4/6 (25 texts)
+2026-04-30 12:49:08.852 | INFO     | src.embedder:embed_documents:66 -   batch 5/6 (25 texts)
+2026-04-30 12:49:09.801 | INFO     | src.embedder:embed_documents:66 -   batch 6/6 (5 texts)
+2026-04-30 12:49:10.077 | INFO     | src.embedder:embed_documents:88 - Building BM25 index...
+2026-04-30 12:49:10.083 | INFO     | src.embedder:embed_documents:94 - Embedded 130 chunks → dim=1536
+2026-04-30 12:49:10.084 | INFO     | src.embedder:save_bm25:162 - BM25 index saved to data\bm25_index.pkl
+2026-04-30 12:49:10.085 | INFO     | src.pipeline:ingest_directory:61 - Ingestion complete: 5 docs → 130 chunks
+2026-04-30 12:49:10.085 | INFO     | api.main:_ingest_demo:101 - Demo data ingested: 130 chunks
+2026-04-30 12:49:36.542 | WARNING  | src.generator:expand_query:271 - Query expansion failed: Connection error.
+2026-04-30 12:49:36.543 | INFO     | src.pipeline:query:114 - Query expanded to 1 variations
+2026-04-30 12:49:36.788 | INFO     | src.retriever:reranker:44 - Loading reranker: BAAI/bge-reranker-v2-m3
+2026-04-30 12:53:52.108 | INFO     | api.main:startup:85 - Enterprise-RAG API starting...
+2026-04-30 12:53:53.989 | INFO     | api.main:startup:89 - Pipeline initialized
+2026-04-30 12:53:53.989 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:53:53.991 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:53:53.993 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:53:53.994 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:53:53.997 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:53:53.998 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:53:53.999 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:53:53.999 | INFO     | src.embedder:embed_documents:59 - Embedding 130 chunks via DashScope (text-embedding-v1)...
+2026-04-30 12:53:53.999 | INFO     | src.embedder:embed_documents:66 -   batch 1/6 (25 texts)
+2026-04-30 12:53:53.999 | INFO     | src.embedder:client:39 - Embedding API: https://dashscope.aliyuncs.com/compatible-mode/v1  model=text-embedding-v1
+2026-04-30 12:53:57.321 | INFO     | src.embedder:embed_documents:66 -   batch 2/6 (25 texts)
+2026-04-30 12:53:58.271 | INFO     | src.embedder:embed_documents:66 -   batch 3/6 (25 texts)
+2026-04-30 12:53:59.524 | INFO     | src.embedder:embed_documents:66 -   batch 4/6 (25 texts)
+2026-04-30 12:54:00.480 | INFO     | src.embedder:embed_documents:66 -   batch 5/6 (25 texts)
+2026-04-30 12:54:01.563 | INFO     | src.embedder:embed_documents:66 -   batch 6/6 (5 texts)
+2026-04-30 12:54:01.730 | INFO     | src.embedder:embed_documents:88 - Building BM25 index...
+2026-04-30 12:54:01.736 | INFO     | src.embedder:embed_documents:94 - Embedded 130 chunks → dim=1536
+2026-04-30 12:54:01.737 | INFO     | src.embedder:save_bm25:162 - BM25 index saved to data\bm25_index.pkl
+2026-04-30 12:54:01.738 | INFO     | src.pipeline:ingest_directory:61 - Ingestion complete: 5 docs → 130 chunks
+2026-04-30 12:54:01.738 | INFO     | api.main:_ingest_demo:101 - Demo data ingested: 130 chunks
+2026-04-30 12:54:13.408 | WARNING  | src.generator:expand_query:271 - Query expansion failed: Error code: 502
+2026-04-30 12:54:13.408 | INFO     | src.pipeline:query:114 - Query expanded to 1 variations
+2026-04-30 12:54:13.615 | INFO     | src.retriever:reranker:44 - Loading reranker: BAAI/bge-reranker-v2-m3
+2026-04-30 12:57:55.777 | INFO     | api.main:startup:85 - Enterprise-RAG API starting...
+2026-04-30 12:57:56.540 | INFO     | api.main:startup:89 - Pipeline initialized
+2026-04-30 12:57:56.540 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 12:57:56.544 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 12:57:56.547 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 12:57:56.549 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 12:57:56.552 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 12:57:56.554 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 12:57:56.555 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 12:57:56.556 | INFO     | src.embedder:embed_documents:59 - Embedding 130 chunks via DashScope (text-embedding-v1)...
+2026-04-30 12:57:56.556 | INFO     | src.embedder:embed_documents:66 -   batch 1/6 (25 texts)
+2026-04-30 12:57:56.556 | INFO     | src.embedder:client:39 - Embedding API: https://dashscope.aliyuncs.com/compatible-mode/v1  model=text-embedding-v1
+2026-04-30 12:57:59.221 | INFO     | src.embedder:embed_documents:66 -   batch 2/6 (25 texts)
+2026-04-30 12:58:00.465 | INFO     | src.embedder:embed_documents:66 -   batch 3/6 (25 texts)
+2026-04-30 12:58:01.655 | INFO     | src.embedder:embed_documents:66 -   batch 4/6 (25 texts)
+2026-04-30 12:58:02.956 | INFO     | src.embedder:embed_documents:66 -   batch 5/6 (25 texts)
+2026-04-30 12:58:04.103 | INFO     | src.embedder:embed_documents:66 -   batch 6/6 (5 texts)
+2026-04-30 12:58:04.341 | INFO     | src.embedder:embed_documents:88 - Building BM25 index...
+2026-04-30 12:58:04.346 | INFO     | src.embedder:embed_documents:94 - Embedded 130 chunks → dim=1536
+2026-04-30 12:58:04.347 | INFO     | src.embedder:save_bm25:162 - BM25 index saved to data\bm25_index.pkl
+2026-04-30 12:58:04.348 | INFO     | src.pipeline:ingest_directory:61 - Ingestion complete: 5 docs → 130 chunks
+2026-04-30 12:58:04.348 | INFO     | api.main:_ingest_demo:101 - Demo data ingested: 130 chunks
+2026-04-30 12:58:11.838 | INFO     | src.pipeline:query:114 - Query expanded to 3 variations
+2026-04-30 12:58:12.050 | INFO     | src.retriever:reranker:44 - Loading reranker: BAAI/bge-reranker-v2-m3
+2026-04-30 13:02:51.288 | INFO     | api.main:startup:85 - Enterprise-RAG API starting...
+2026-04-30 13:02:51.961 | INFO     | api.main:startup:89 - Pipeline initialized
+2026-04-30 13:02:51.961 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-04-30 13:02:51.963 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-04-30 13:02:51.965 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-04-30 13:02:51.966 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-04-30 13:02:51.967 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-04-30 13:02:51.969 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-04-30 13:02:51.970 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-04-30 13:02:51.970 | INFO     | src.embedder:embed_documents:59 - Embedding 130 chunks via DashScope (text-embedding-v1)...
+2026-04-30 13:02:51.970 | INFO     | src.embedder:embed_documents:66 -   batch 1/6 (25 texts)
+2026-04-30 13:02:51.971 | INFO     | src.embedder:client:39 - Embedding API: https://dashscope.aliyuncs.com/compatible-mode/v1  model=text-embedding-v1
+2026-04-30 13:02:54.118 | INFO     | src.embedder:embed_documents:66 -   batch 2/6 (25 texts)
+2026-04-30 13:02:55.292 | INFO     | src.embedder:embed_documents:66 -   batch 3/6 (25 texts)
+2026-04-30 13:02:56.256 | INFO     | src.embedder:embed_documents:66 -   batch 4/6 (25 texts)
+2026-04-30 13:02:57.196 | INFO     | src.embedder:embed_documents:66 -   batch 5/6 (25 texts)
+2026-04-30 13:02:58.235 | INFO     | src.embedder:embed_documents:66 -   batch 6/6 (5 texts)
+2026-04-30 13:02:58.425 | INFO     | src.embedder:embed_documents:88 - Building BM25 index...
+2026-04-30 13:02:58.430 | INFO     | src.embedder:embed_documents:94 - Embedded 130 chunks → dim=1536
+2026-04-30 13:02:58.432 | INFO     | src.embedder:save_bm25:162 - BM25 index saved to data\bm25_index.pkl
+2026-04-30 13:02:58.432 | INFO     | src.pipeline:ingest_directory:61 - Ingestion complete: 5 docs → 130 chunks
+2026-04-30 13:02:58.432 | INFO     | api.main:_ingest_demo:101 - Demo data ingested: 130 chunks
+2026-04-30 13:03:13.441 | INFO     | src.pipeline:query:114 - Query expanded to 3 variations
+2026-04-30 13:03:13.691 | INFO     | src.retriever:reranker:98 - Initializing DashScope reranker: gte-rerank
+2026-04-30 13:03:16.583 | INFO     | src.pipeline:query:126 - Retrieved 5 unique contexts
+2026-04-30 13:03:29.578 | INFO     | src.pipeline:query:114 - Query expanded to 3 variations
+2026-04-30 13:03:32.759 | INFO     | src.pipeline:query:126 - Retrieved 5 unique contexts
+2026-05-07 10:56:36.970 | INFO     | api.main:startup:85 - Enterprise-RAG API starting...
+2026-05-07 10:56:37.715 | INFO     | api.main:startup:89 - Pipeline initialized
+2026-05-07 10:56:37.715 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-05-07 10:56:37.719 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-05-07 10:56:37.722 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-05-07 10:56:37.724 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-05-07 10:56:37.726 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-05-07 10:56:37.728 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-05-07 10:56:37.728 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-05-07 10:56:37.728 | INFO     | src.embedder:embed_documents:59 - Embedding 130 chunks via DashScope (text-embedding-v1)...
+2026-05-07 10:56:37.728 | INFO     | src.embedder:embed_documents:66 -   batch 1/6 (25 texts)
+2026-05-07 10:56:37.729 | INFO     | src.embedder:client:39 - Embedding API: https://dashscope.aliyuncs.com/compatible-mode/v1  model=text-embedding-v1
+2026-05-07 10:56:40.179 | INFO     | src.embedder:embed_documents:66 -   batch 2/6 (25 texts)
+2026-05-07 10:56:41.107 | INFO     | src.embedder:embed_documents:66 -   batch 3/6 (25 texts)
+2026-05-07 10:56:42.328 | INFO     | src.embedder:embed_documents:66 -   batch 4/6 (25 texts)
+2026-05-07 10:56:43.531 | INFO     | src.embedder:embed_documents:66 -   batch 5/6 (25 texts)
+2026-05-07 10:56:44.386 | INFO     | src.embedder:embed_documents:66 -   batch 6/6 (5 texts)
+2026-05-07 10:56:44.725 | INFO     | src.embedder:embed_documents:88 - Building BM25 index...
+2026-05-07 10:56:44.731 | INFO     | src.embedder:embed_documents:94 - Embedded 130 chunks → dim=1536
+2026-05-07 10:56:44.733 | INFO     | src.embedder:save_bm25:162 - BM25 index saved to data\bm25_index.pkl
+2026-05-07 10:56:44.734 | INFO     | src.pipeline:ingest_directory:61 - Ingestion complete: 5 docs → 130 chunks
+2026-05-07 10:56:44.734 | INFO     | api.main:_ingest_demo:101 - Demo data ingested: 130 chunks
+2026-05-11 17:11:28.213 | INFO     | api.main:startup:85 - Enterprise-RAG API starting...
+2026-05-11 17:11:30.232 | INFO     | api.main:startup:89 - Pipeline initialized
+2026-05-11 17:11:30.233 | INFO     | api.main:startup:106 - Enterprise-RAG API ready
+2026-05-11 17:11:30.235 | INFO     | src.loader:load_directory:64 - Loaded: 产品需求文档_智能客服.md (1 segments)
+2026-05-11 17:11:30.237 | INFO     | src.loader:load_directory:64 - Loaded: 员工手册_2024.md (1 segments)
+2026-05-11 17:11:30.239 | INFO     | src.loader:load_directory:64 - Loaded: 数据安全管理制度.md (1 segments)
+2026-05-11 17:11:30.241 | INFO     | src.loader:load_directory:64 - Loaded: 新员工入职指南.txt (1 segments)
+2026-05-11 17:11:30.243 | INFO     | src.loader:load_directory:64 - Loaded: 项目开发规范.md (1 segments)
+2026-05-11 17:11:30.243 | INFO     | src.splitter:split:46 - Split 5 docs into 130 chunks
+2026-05-11 17:11:30.243 | INFO     | src.embedder:embed_documents:59 - Embedding 130 chunks via DashScope (text-embedding-v1)...
+2026-05-11 17:11:30.243 | INFO     | src.embedder:embed_documents:66 -   batch 1/6 (25 texts)
+2026-05-11 17:11:30.244 | INFO     | src.embedder:client:39 - Embedding API: https://dashscope.aliyuncs.com/compatible-mode/v1  model=text-embedding-v1
+2026-05-11 17:11:34.005 | INFO     | src.embedder:embed_documents:66 -   batch 2/6 (25 texts)
+2026-05-11 17:11:34.983 | INFO     | src.embedder:embed_documents:66 -   batch 3/6 (25 texts)
+2026-05-11 17:11:35.903 | INFO     | src.embedder:embed_documents:66 -   batch 4/6 (25 texts)
+2026-05-11 17:11:36.827 | INFO     | src.embedder:embed_documents:66 -   batch 5/6 (25 texts)
+2026-05-11 17:11:38.210 | INFO     | src.embedder:embed_documents:66 -   batch 6/6 (5 texts)
+2026-05-11 17:11:38.416 | INFO     | src.embedder:embed_documents:88 - Building BM25 index...
+2026-05-11 17:11:38.420 | INFO     | src.embedder:embed_documents:94 - Embedded 130 chunks → dim=1536
+2026-05-11 17:11:38.422 | INFO     | src.embedder:save_bm25:162 - BM25 index saved to data\bm25_index.pkl
+2026-05-11 17:11:38.422 | INFO     | src.pipeline:ingest_directory:61 - Ingestion complete: 5 docs → 130 chunks
+2026-05-11 17:11:38.422 | INFO     | api.main:_ingest_demo:101 - Demo data ingested: 130 chunks
+2026-05-11 17:12:15.873 | INFO     | src.pipeline:query:114 - Query expanded to 3 variations
+2026-05-11 17:12:16.140 | INFO     | src.retriever:reranker:98 - Initializing DashScope reranker: gte-rerank
+2026-05-11 17:12:23.183 | INFO     | src.pipeline:query:126 - Retrieved 5 unique contexts
+2026-05-11 17:12:33.467 | INFO     | src.pipeline:query:114 - Query expanded to 3 variations
+2026-05-11 17:12:40.494 | INFO     | src.pipeline:query:126 - Retrieved 5 unique contexts

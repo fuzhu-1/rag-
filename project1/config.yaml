@@ -1,0 +1,122 @@
+# Enterprise-RAG Configuration
+# ==============================
+
+project:
+  name: "Enterprise-RAG"
+  version: "1.0.0"
+  data_dir: "./data/uploads"
+  demo_data_dir: "./data/demo"
+
+# LLM Configuration
+llm:
+  # DeepSeek API (OpenAI 兼容接口)
+  provider: "deepseek"  # options: deepseek, local, openai
+  model_name: "deepseek-v4-pro"
+  api_base: "https://api.deepseek.com/v1"
+  api_key: "${DEEPSEEK_API_KEY}"
+  max_tokens: 2048
+  temperature: 0.1
+  # OpenAI fallback
+  openai:
+    model_name: "gpt-4o-mini"
+    api_base: "https://api.openai.com/v1"
+    api_key: "${OPENAI_API_KEY}"
+
+# Embedding Model — 阿里百炼 DashScope (OpenAI 兼容接口)
+# 文档: https://help.aliyun.com/document_detail/2712175.html
+embedding:
+  provider: "dashscope"          # dashscope / local
+  model_name: "text-embedding-v1"  # v1=1536维, v2=1536维, v3=1024维(支持多语言)
+  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  api_key: "${DASHSCOPE_API_KEY}"
+  normalize: true
+  dense_dim: 1536               # text-embedding-v1/v2 输出 1536 维
+  batch_size: 25                # 每次 API 调用最多嵌入的文本数
+
+# Reranker — 阿里百炼 DashScope Rerank API
+# 文档: https://help.aliyun.com/document_detail/2712175.html
+reranker:
+  provider: "dashscope"          # dashscope / local
+  model_name: "gte-rerank"
+  api_base: "https://dashscope.aliyuncs.com/api/v1/services/rerank/text-rerank/text-rerank"
+  api_key: "${DASHSCOPE_API_KEY}"
+  top_n: 5
+
+# Vector Database
+vector_db:
+  backend: "milvus"  # options: milvus, chroma, qdrant
+  milvus:
+    host: "localhost"
+    port: 19530
+    collection_name: "enterprise_knowledge"
+    index_type: "IVF_FLAT"
+    metric_type: "IP"
+  chroma:
+    persist_directory: "./data/chroma_db"
+    collection_name: "enterprise_knowledge"
+  qdrant:
+    url: "http://localhost:6333"
+    collection_name: "enterprise_knowledge"
+    vector_size: 1024
+
+# Text Splitting
+splitter:
+  chunk_size: 512
+  chunk_overlap: 100
+  separators:
+    - "\n\n"
+    - "\n"
+    - "。"
+    - "！"
+    - "？"
+    - "；"
+    - "."
+    - "!"
+    - "?"
+    - " "
+  enable_semantic_chunking: false  # Markdown-header-based splitting
+
+# Hybrid Retrieval
+retrieval:
+  vector_weight: 0.7
+  bm25_weight: 0.3
+  candidate_top_k: 20
+  final_top_k: 5
+
+# Query Expansion
+query_expansion:
+  enabled: true
+  num_variations: 2
+
+# Multimodal
+multimodal:
+  enabled: true
+  vision_model: "gpt-4o-mini"  # or "Qwen/Qwen-VL-Chat" for local
+  ocr_lang: "chi_sim+eng"
+
+# Conversation
+conversation:
+  history_turns: 3
+  db_path: "./data/conversations.db"
+
+# Security
+security:
+  allowed_extensions:
+    - ".pdf"
+    - ".docx"
+    - ".doc"
+    - ".txt"
+    - ".md"
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+    - ".xlsx"
+    - ".xls"
+    - ".pptx"
+    - ".csv"
+  max_file_size_mb: 100
+
+# Logging
+logging:
+  level: "INFO"
+  file: "./data/logs/rag.log"
